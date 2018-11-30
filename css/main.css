@@ -331,10 +331,10 @@ footer h4[lang=ru] {
 /***********************************************
                 MEDIA QUERIES
 ***********************************************/
-@media all and (min-width: 701px) and (max-width: 900px) {
+@media all and (min-width: 700px) and (max-width: 900px) {
   header {
-    width: 700px;
     margin: 0 auto;
+    width: 700px;
     min-height: 8rem;
   }
   header h1 {
@@ -354,8 +354,8 @@ footer h4[lang=ru] {
     letter-spacing: 0.25rem;
     font-size: 3.998rem;
     /**
-    1 lines of 3.998 * 1.6 = 6.3968
-    **/
+                1 lines of 3.998 * 1.6 = 6.3968
+                **/
     text-align: left;
   }
   header:before, header:after {
@@ -445,10 +445,10 @@ footer h4[lang=ru] {
     display: none;
   }
 }
-@media all and (min-width: 901px) and (max-width: 1400px) {
+@media all and (min-width: 900px) and (max-width: 1400px) {
   header {
-    width: 900px;
     margin: 0 auto;
+    width: 900px;
   }
 
   header:before,
@@ -591,10 +591,10 @@ footer h4[lang=en] {
     display: none;
   }
 }
-@media all and (min-width: 1401px) {
+@media all and (min-width: 1400px) {
   header {
-    width: 1400px;
     margin: 0 auto;
+    width: 1400px;
   }
 
   header:before,

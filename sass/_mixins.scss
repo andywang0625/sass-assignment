@@ -13,6 +13,21 @@
 	flex-grow: 1;
 	flex-shrink: 0;
 }
+@mixin header{
+	margin: 0 auto;
+	@content;
+}
 @mixin footer-row-col{
 	flex-basis: 50%;
+}
+@mixin respond-to($media){
+	@if $media==smal{
+		@media all and (min-width:$break-small)and(max-width:$break-medium){@content;}
+	}
+	@else if $media==med{
+		@media all and (min-width:$break-medium)and(max-width:$break-large){@content;}
+	}
+	@else if $media==wide{
+		@media all and (min-width:$break-large){@content;}
+	}
 }
